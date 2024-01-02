@@ -50,10 +50,3 @@
   gap: 20px;
 }
 
-.fancy-title {
-  font-weight: bold;
-  font-size: medium;
-  padding-left: 8px;
-  position: absolute;
-  transition: transform 100ms;
-}

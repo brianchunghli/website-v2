@@ -11,7 +11,8 @@ export default function Blurb() {
           </span>
         </div>
         <div id="blurb-floating-body">
-          Masters of IT (Computer Science) student @ UNSW
+          Masters of IT (Computer Science) student @ UNSW and
+          avid tech enthusiast based in Sydney.
         </div>
       </div >
       <Socials />

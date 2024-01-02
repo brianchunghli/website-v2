@@ -26,7 +26,7 @@
 }
 
 #blurb-floating-title {
-  font-size: 2em;
+  font-size: 2.4em;
   font-family: libre baskerville, sans serif;
 }
 
@@ -35,7 +35,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   #blurb,
   #blurb-floating {
     position: static;
@@ -44,7 +43,7 @@
 
   #blurb {
     min-height: 200px;
-    max-width: 700px;
+    min-width: 700px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -55,6 +54,11 @@
     flex-direction: column;
     row-gap: 5px;
   }
+
+  #blurb-floating-title {
+    font-size: 1.6em;
+  }
+
 
   #blurb-floating-body {
     padding-right: 42%;
