@@ -1,0 +1,28 @@
+#project-section-title {
+  font-size: 1.6em;
+}
+
+#project-section-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 10px;
+}
+
+#project-section-content:hover>li {
+  opacity: 0.25;
+}
+
+#project-section-content>li:hover {
+  opacity: 1;
+
+  .highlight {
+    color: #50B9A7;
+  }
+
+  img {
+    outline: 1px solid #5b6078;
+    border-radius: 5px;
+  }
+
+}

@@ -1,0 +1,38 @@
+#social-links {
+  position: sticky;
+  bottom: 20px;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-bottom: 10%;
+
+  /*positioning of the navlinks
+  position: fixed;
+  bottom: 20%;
+  right: min(10%, 200px);
+  */
+}
+
+#social-icons {
+  padding-top: 30px;
+  display: flex;
+  gap: 5px;
+  flex-flow: wrap row;
+}
+
+#social a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #cad3f5;
+}
+
+#social i {
+  font-size: 2em;
+}
+
+#social a:hover {
+  color: white;
+}

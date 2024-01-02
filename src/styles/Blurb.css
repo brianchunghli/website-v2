@@ -1,0 +1,63 @@
+/*Specifies a space to hold floating elements*/
+#blurb {
+  padding: 5px 20px;
+  min-width: 400px;
+  max-width: 400px;
+  flex: 30%;
+
+
+  min-height: 100vh;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 80px;
+
+}
+
+#blurb-floating {
+  position: sticky;
+  top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#blurb-floating-title {
+  font-size: 2em;
+  font-family: libre baskerville, sans serif;
+}
+
+#blurb-floating-title-name {
+  font-weight: bold
+}
+
+@media screen and (max-width: 1000px) {
+
+  #blurb,
+  #blurb-floating {
+    position: static;
+    padding: 0px;
+  }
+
+  #blurb {
+    min-height: 200px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #blurb-floating {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+
+  #blurb-floating-body {
+    padding-right: 42%;
+  }
+
+}

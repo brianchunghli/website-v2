@@ -1,0 +1,17 @@
+.skills-list-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.skills-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  padding: 5px 10px;
+  font-weight: 400;
+  color: #50B9A7;
+  background-color: #183756;
+  border-radius: 15px;
+}

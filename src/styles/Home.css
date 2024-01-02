@@ -1,0 +1,65 @@
+/* Debugging only
+div {
+  outline: 1px solid white;
+}
+* */
+
+#main-container {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 25%;
+  padding-top: 80px;
+  margin: 0px auto;
+  min-height: 100vh;
+  height: auto;
+  column-gap: 20px;
+}
+
+#main-content {
+  min-height: 100vh;
+  height: auto;
+}
+
+#main-content {
+  flex: 70%;
+
+  padding: 5px 20px;
+  min-width: calc(min(55%, 500px));
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#main-content-sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  row-gap: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  #main-container {
+    min-width: 760px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main-content {
+    min-width: 714px;
+    position: static;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #main-container {
+    padding-left: calc(max(30%, 300px));
+  }
+}

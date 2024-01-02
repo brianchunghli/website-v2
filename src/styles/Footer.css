@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+  #footer-content {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+  }
+}
+
+footer a:hover {
+  color: #50B9A7;
+}

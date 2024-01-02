@@ -1,0 +1,51 @@
+#root {
+  margin: 0 auto;
+}
+
+body {
+  font-family: inter, sans serif;
+  font-weight: 300;
+  background-color: #1D1F2F;
+  color: #939ab7;
+}
+
+/*remove text decoration for links*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*remove some base styling for lists*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  padding: 10px 10% 10% 20px;
+}
+
+nav {
+  padding: 10px 5px;
+}
+
+.highlight {
+  color: #cad3f5;
+  font-weight: 500;
+}
+
+.title {
+  color: #50B9A7;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fancy-title {
+  font-weight: bold;
+  font-size: medium;
+  padding-left: 8px;
+  position: absolute;
+  transition: transform 100ms;
+}
