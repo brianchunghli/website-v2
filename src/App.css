@@ -34,8 +34,17 @@ nav {
   font-weight: 500;
 }
 
+.highlight-white {
+  color: white;
+  font-weight: 500;
+}
+
 .title {
   color: #50B9A7;
+}
+
+.smaller-text {
+  font-size: 0.8em;
 }
 
 .bold {
@@ -48,4 +57,8 @@ nav {
   padding-left: 8px;
   position: absolute;
   transition: transform 100ms;
+}
+
+.title-padding {
+  padding-bottom: 10px;
 }
