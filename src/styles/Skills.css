@@ -1,0 +1,58 @@
+#skills-section-title {
+  font-size: 1.6em;
+}
+
+#languages-and-tech-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.languages-and-tech-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.languages-and-tech-row-icons {
+  display: flex;
+  gap: 10px;
+  position: relative;
+
+  i {
+    font-size: 1.6em;
+  }
+}
+
+
+.languages-and-tech-row div:nth-child(2) div:hover {
+  color: white;
+
+  .tooltip {
+    display: grid;
+  }
+}
+
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6px 10px;
+  z-index: 1;
+  top: -35px;
+  position: absolute;
+  font-size: 0.8em;
+
+  background-color: black;
+
+  color: white;
+  opacity: 0.8;
+
+  border-radius: 8px;
+  font-weight: 500;
+
+  display: none;
+}
