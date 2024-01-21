@@ -1,0 +1,22 @@
+#experience-section-title {
+  font-size: 1.6em;
+}
+
+#experience-section-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 10px;
+}
+
+#experience-section-content:hover>li {
+  opacity: 0.25;
+}
+
+#experience-section-content>li:hover {
+  opacity: 1;
+
+  .highlight {
+    color: #50B9A7;
+  }
+}
