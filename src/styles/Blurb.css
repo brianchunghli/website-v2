@@ -5,9 +5,7 @@
   max-width: 400px;
   flex: 30%;
 
-
   min-height: 100vh;
-  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -26,15 +24,30 @@
 }
 
 #blurb-floating-title {
-  font-size: 2.4em;
-  font-family: libre baskerville, sans serif;
+  font-size: 4em;
+}
+
+#blurb-floating-title:hover {
+  cursor: pointer;
 }
 
 #blurb-floating-title-name {
   font-weight: bold
 }
 
+#blurb-floating-body {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+#blurb-floating-body div:first-of-type {
+  padding-bottom: 10px;
+  color: white;
+}
+
 @media screen and (max-width: 1000px) {
+
   #blurb,
   #blurb-floating {
     position: static;
@@ -42,11 +55,13 @@
   }
 
   #blurb {
-    min-height: 200px;
-    min-width: 700px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    min-height: 200px;
+    max-width: unset;
+    min-width: unset;
+    flex: unset;
   }
 
   #blurb-floating {
@@ -56,12 +71,11 @@
   }
 
   #blurb-floating-title {
-    font-size: 1.6em;
+    font-size: 3em;
   }
-
 
   #blurb-floating-body {
     padding-right: 42%;
+    max-width: unset;
   }
-
 }
