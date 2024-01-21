@@ -8,16 +8,20 @@ interface AboutDelay {
 type AboutSectionProps = React.ClassAttributes<HTMLElement> &
   React.HTMLAttributes<HTMLElement> & AboutDelay
 
-export default function AboutSection({ mainDelay = 1000, ...props }: AboutSectionProps) {
+export default function AboutSection({ mainDelay, ...props }: AboutSectionProps) {
   return (
     <section {...props}>
       <FadeLeftRight delay={mainDelay} FadeLeft={false}>
         <div id="about-section-content">
           <div>
-            Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+            My first experience with web development happened back in 2012 while customizing my Myspace page—a small but meaningful beginning in my journey into software development. Over time, my interest in building practical solutions has only grown.
           </div>
           <div>
-            Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+            After a brief period at PwC Consulting, I realized my true passion lies in creating effective solutions to everyday challenges. So, I made the decision to leave PwC and focus on what I love.
+          </div>
+
+          <div>
+            For now, stay tuned for updates on my current projects.
           </div>
         </div>
       </FadeLeftRight>
