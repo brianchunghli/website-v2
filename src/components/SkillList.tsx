@@ -11,7 +11,7 @@ type SkillsProps = React.ClassAttributes<HTMLDivElement> &
 
 export default function SkillList({ name, items, ...props }: SkillsProps) {
   return <div className="skills-list-container" {...props}>
-    {items.map((v, j) => <div className="skills-list-item" key={`${name}-${v}-${j}`}>{v}</div>)}
+    {items.map((v, j) => <div className="skills-list-item smaller-text" key={`${name}-${v}-${j}`}>{v}</div>)}
   </div>
 
 }
