@@ -1,3 +1,4 @@
+
 #main-container {
   display: flex;
   padding-left: 15%;
@@ -46,7 +47,6 @@
   #main-content {
     position: static;
     padding: 0px;
-    max-width: 644px;
   }
 }
 

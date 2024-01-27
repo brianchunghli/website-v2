@@ -16,9 +16,9 @@ const imageContents: ImageContentEntry[] = [
   {
     link: "https://splitfast.vercel.app",
     title: "Splitfast",
-    desc: "A splitwise clone built using the Rust Axum framework and React with state persistence, authentication and sharing. Backend deployed via an AWS EC2 instance and Docker.",
+    desc: "A splitwise clone built using the Rust Axum framework and React with state persistence, authentication and sharing. Backend deployed via an AWS EC2 instance and AWS CloudFront.",
     image: "/placeholder.png",
-    skills: ["Rust", "Typescript", "Axum", "React", "Docker", "Amazon Web Services"]
+    skills: ["Rust", "Typescript", "Axum", "React", "Amazon Web Services"]
   },
   {
     link: "https://brianli-personal-website.vercel.app",

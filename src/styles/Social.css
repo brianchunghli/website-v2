@@ -9,11 +9,6 @@
   gap: 3px;
   padding-bottom: 10%;
 
-  /*positioning of the navlinks
-  position: fixed;
-  bottom: 20%;
-  right: min(10%, 200px);
-  */
 }
 
 #social-icons {
@@ -35,4 +30,12 @@
 
 #social a:hover {
   color: white;
+}
+
+@media screen and (max-width: 1000px) {
+
+#social {
+  padding-bottom: 50px;
+}
+
 }
