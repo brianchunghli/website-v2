@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  row-gap: 100px;
+  row-gap: 70px;
 }
 
 @media screen and (max-width: 1000px) {
