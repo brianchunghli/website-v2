@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: inter, sans serif;
-  font-weight: 300;
-  background-color: #1D1F2F;
-  color: #939ab7;
+  font-family: 'Inter Variable', sans-serif;
+  font-weight: 400;
+  background-color: #181926;
+  color: #8087a2;
 }
 
 /*remove text decoration for links*/
@@ -46,7 +46,7 @@ nav {
 }
 
 .smaller-text {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .bold {
