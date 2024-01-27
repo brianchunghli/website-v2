@@ -8,7 +8,7 @@ import { DateContentEntry, ComponentDelay } from "../types";
 const dateContents: DateContentEntry[] = [
   {
     title: "Senior Consultant · PwC Consulting Australia",
-    desc: "Involved in projects ranging from Board to Executive level remuneration benchmarking, to digital transformation for Government, Financial Services and Tech sectors.",
+    desc: "Involved in projects ranging from Board to Executive level remuneration benchmarking, internal tool automation and development, to digital transformation for Government, Financial Services and Tech sectors.",
     skills: ["Communication", "Leadership", "Stakeholder management"],
     DateInterval: { start: "MAR 2018", end: "JAN 2022" },
   },
