@@ -7,21 +7,21 @@ import { ImageContentEntry, ComponentDelay } from "../types";
 
 const imageContents: ImageContentEntry[] = [
   {
-    link: "https://splitfast.vercel.app",
+    link: "https://github.com/brianchunghli/splitfast-frontend",
     title: "Splitfast",
-    desc: "A splitwise clone built using the Rust Axum framework and React with state persistence, authentication and sharing. Backend deployed via an AWS EC2 instance and AWS CloudFront.",
+    desc: "A splitwise clone built using the Rust Axum framework and React with state persistence, authentication and sharing. Backend deployed via an AWS EC2 instance and AWS CloudFront. Frontend built in Typescript and React with Vite.",
     image: "/placeholder.png",
     skills: ["Rust", "Typescript", "Axum", "React", "Amazon Web Services"]
   },
   {
-    link: "https://personal-website-v2-ruddy.vercel.app",
+    link: "https://github.com/brianchunghli/website-v2",
     title: "Personal website v2",
     desc: "The next iteration of my personal website.",
     image: "/website-v2.png",
     skills: ["Typescript", "React", "Css"]
   },
   {
-    link: "https://brianli-personal-website.vercel.app",
+    link: "https://github.com/brianchunghli/personal-website",
     title: "Personal website v1",
     desc: "The first iteration of my personal website.",
     image: "/website-v1.png",
