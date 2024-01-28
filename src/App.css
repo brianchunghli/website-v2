@@ -9,6 +9,7 @@ body {
   font-weight: 400;
   background-color: #181926;
   color: #8087a2;
+  line-height: 1.2em;
 }
 
 /*remove text decoration for links*/
