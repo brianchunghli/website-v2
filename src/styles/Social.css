@@ -6,7 +6,6 @@
 #social {
   display: flex;
   flex-direction: column;
-  gap: 3px;
   padding-bottom: 10%;
 
 }
@@ -14,7 +13,8 @@
 #social-icons {
   padding-top: 30px;
   display: flex;
-  gap: 5px;
+  gap: 12px;
+  padding-bottom: 20px;
   flex-flow: wrap row;
 }
 
@@ -33,9 +33,12 @@
 }
 
 @media screen and (max-width: 1000px) {
-
 #social {
   padding-bottom: 50px;
+}
+
+#social-icons {
+    padding-top: 10px;
 }
 
 }
