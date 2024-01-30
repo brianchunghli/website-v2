@@ -36,7 +36,7 @@
 #blurb-floating-body {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 320px;
   line-height: 1.4em;
 }
 
@@ -46,7 +46,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   #blurb,
   #blurb-floating {
     position: static;
@@ -72,8 +71,4 @@
     font-size: 3em;
   }
 
-  #blurb-floating-body {
-    padding-right: 42%;
-    max-width: unset;
-  }
 }
