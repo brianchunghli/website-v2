@@ -1,21 +1,19 @@
 
 #main-container {
   display: flex;
-  padding-left: 15%;
-  padding-right: 25%;
-  padding-top: 80px;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-top: 100px;
   margin: 0px auto;
+
   min-height: 100vh;
-  height: auto;
   column-gap: 20px;
 }
 
 #main-content {
   min-height: 100vh;
   height: auto;
-}
 
-#main-content {
   flex: 70%;
 
   padding: 5px 20px;
