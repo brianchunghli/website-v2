@@ -4,13 +4,11 @@ import App from './App.tsx'
 import { BrowserRouter } from "react-router-dom";
 
 import "@fontsource/inter";
-import { Analytics } from '@vercel/analytics/react';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      <Analytics/>
     </BrowserRouter>
   </React.StrictMode>,
 )
